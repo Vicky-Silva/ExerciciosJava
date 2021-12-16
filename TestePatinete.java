@@ -1,4 +1,4 @@
-package ExePOO;
+package exeGeneration;
 
 public class TestePatinete {
 

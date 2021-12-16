@@ -1,4 +1,4 @@
-package ExePOO;
+package exeGeneration;
 
 public class ProdutoEletrônico {
 
@@ -11,16 +11,16 @@ public class ProdutoEletrônico {
 	public ProdutoEletrônico (String nome,String tamanho,String cor,int ano)
 	
 	{
-		this.cor = nome;
+		this.cor = cor;
 		this.tamanho = tamanho;
-		this.nome = cor;
+		this.nome = nome;
 		this.ano = ano;
 		
 	}
 	
 	   public void imprimirInfo()
 	{
-		      System.out.println("Meu "+nome+", na cor "+cor+", de tamanho "+tamanho+", Fabricado no ano de "+ano+".");
+		      System.out.println("Meu iphone "+nome+", na cor "+cor+","+tamanho+", Fabricado no ano de "+ano+".");
 		      
 	}
 
